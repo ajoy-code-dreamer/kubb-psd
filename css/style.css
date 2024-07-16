@@ -22,7 +22,7 @@ i{
     cursor: pointer;
 }
 .container{
-    width: 1170px;
+    max-width: 1170px;
     margin: 0 auto;
 }
 /* ===common css=== */
@@ -37,6 +37,7 @@ body{
     left: 0;
     background-color: rgba(24, 22, 33, 0.507);
     padding: 32px 0;
+    z-index: 12322222;
     
 }
 .brand_logo{
@@ -88,12 +89,13 @@ body{
     background-repeat: no-repeat;
     padding-top: 330px;
     padding-bottom: 250px;
-}
+} 
 .banner_wrapper{
     text-align: center;
     color: #fff;
 }
-.banner_wrapper>h1,.banner_wrapper>h3{
+.banner_wrapper>h1,
+.banner_wrapper>h3{
     text-transform: uppercase;
 }
 .banner_wrapper>h1{

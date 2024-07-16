@@ -6,6 +6,20 @@
     padding: 15px 0;
   }
   /* === navbar === */
+  /* === banner === */
+  #banner {
+    padding-top: 180px;
+    padding-bottom: 130px;
+  }
+  .banner_wrapper > h1 {
+    font-size: 32px;
+  }
+  .banner_wrapper > h3 {
+    font-size: 24px;
+    padding: 14px 0;
+  }
+
+  /* === banner === */
 }
 /* ========================= device (xs 0 > 576) ========================= */
 
@@ -16,6 +30,20 @@
     padding: 20px 0;
   }
   /* === navbar === */
+  /* === banner === */
+  #banner {
+    padding-top: 210px;
+    padding-bottom: 180px;
+  }
+  .banner_wrapper > h1 {
+    font-size: 38px;
+  }
+  .banner_wrapper > h3 {
+    font-size: 28px;
+    padding: 18px 0;
+  }
+
+  /* === banner === */
 }
 /* ========================= device (sm 576 > 768) ========================= */
 
