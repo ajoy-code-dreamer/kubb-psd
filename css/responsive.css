@@ -18,8 +18,29 @@
     font-size: 24px;
     padding: 14px 0;
   }
-
   /* === banner === */
+  /* === service === */
+  .service_wrapper > h3 {
+    padding-top: 50px;
+    line-height: 1.3;
+  }
+  .service_wrapper > p {
+    padding-bottom: 40px;
+    line-height: 1.4;
+  }
+  .service_item {
+    width: 280px;
+  }
+  .service_item_img {
+    height: 190px;
+}
+  .service_item_wrapper {
+    justify-content: center;
+  }
+  .service_item>p {
+    line-height: 1.5;
+}
+  /* === service === */
 }
 /* ========================= device (xs 0 > 576) ========================= */
 
@@ -44,6 +65,11 @@
   }
 
   /* === banner === */
+  /* === service === */
+  .service_item_wrapper {
+    justify-content: center;
+  }
+  /* === service === */
 }
 /* ========================= device (sm 576 > 768) ========================= */
 
@@ -54,6 +80,19 @@
     padding: 20px 0;
   }
   /* === navbar === */
+  /* === service === */
+  
+  .service_item {
+    width: 280px;
+  }
+  .service_item_img {
+    height: 190px;
+}
+  .service_item_wrapper {
+    justify-content: center;
+    gap: 20px;
+  }
+  /* === service === */
 }
 /* ========================= device (md 768 > 992) ========================= */
 
@@ -64,6 +103,19 @@
     column-gap: 20px;
   }
   /* === navbar === */
+  /* === service === */
+  
+  .service_item {
+    width: 280px;
+  }
+  .service_item_img {
+    height: 190px;
+}
+  .service_item_wrapper {
+    justify-content: center;
+    gap: 20px;
+  }
+  /* === service === */
 }
 /* ========================= device (lg 992 > 1200) ========================= */
 
