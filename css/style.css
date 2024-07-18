@@ -145,10 +145,6 @@ body{
     text-transform: uppercase;
 }
 .service_item_wrapper{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
     padding-bottom: 85px;
     row-gap: 20px;
 }
@@ -156,6 +152,7 @@ body{
     max-width: 370px;
     padding: 15px;
     border: 1px solid #e3e3e3;
+    margin: 0 auto;
 }
 .service_item_img{
     max-width: 338px;

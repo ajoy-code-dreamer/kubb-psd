@@ -20,6 +20,9 @@
   }
   /* === banner === */
   /* === service === */
+  .service_item_wrapper {
+    padding-bottom: 45px;
+}
   .service_wrapper > h3 {
     padding-top: 50px;
     line-height: 1.3;
@@ -30,17 +33,26 @@
   }
   .service_item {
     width: 280px;
+    
   }
   .service_item_img {
     height: 190px;
 }
-  .service_item_wrapper {
-    justify-content: center;
-  }
   .service_item>p {
     line-height: 1.5;
 }
   /* === service === */
+  /* === portfolio === */
+  .portfolio_wrapper>h2::before{
+    display: none;
+  }
+  .portfolio_wrapper>h2::after{
+    display: none;
+  }
+  .portfolio_item{
+    width: 100%;
+  }
+  /* === portfolio === */
 }
 /* ========================= device (xs 0 > 576) ========================= */
 
@@ -63,13 +75,13 @@
     font-size: 28px;
     padding: 18px 0;
   }
-
   /* === banner === */
-  /* === service === */
-  .service_item_wrapper {
-    justify-content: center;
+  /* === portfolio === */
+  .portfolio_item{
+    width: 50%;
   }
-  /* === service === */
+  /* === portfolio === */
+  
 }
 /* ========================= device (sm 576 > 768) ========================= */
 
@@ -89,7 +101,6 @@
     height: 190px;
 }
   .service_item_wrapper {
-    justify-content: center;
     gap: 20px;
   }
   /* === service === */
