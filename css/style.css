@@ -252,7 +252,7 @@ body{
     text-align: center;
     padding: 80px 0;
 }
-.journal_section_wrapper>h2{
+.journal_section_heading{
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -262,7 +262,7 @@ body{
     display: inline-block;
     margin-bottom: 30px;
 }
-.journal_section_wrapper>h2::before{
+.journal_section_heading::before{
     position: absolute;
     content: "";
     height: 1px;
@@ -272,7 +272,7 @@ body{
     left: -115px;
     transform: translateY(-50%);
 }
-.journal_section_wrapper>h2::after{
+.journal_section_heading::after{
     position: absolute;
     content: "";
     height: 1px;
@@ -287,10 +287,12 @@ body{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    gap: 20px;
 }
 .journal_item{
     width: 370px;
     border: 1px solid #e3e3e3;
+    margin: 0 auto;
 }
 .journal_item_img{
     width: 100%;

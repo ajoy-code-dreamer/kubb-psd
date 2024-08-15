@@ -53,6 +53,21 @@
     width: 100%;
   }
   /* === portfolio === */
+  /* === journal === */
+  .journal_item_wrapper{
+    align-items: center;
+  }
+  .journal_section_heading::after{
+    display: none;
+  }
+  .journal_section_heading::before{
+    display: none;
+  }
+  .journal_item{
+    width: 300px;
+  }
+  
+  /* === journal === */
 }
 /* ========================= device (xs 0 > 576) ========================= */
 
