@@ -5,6 +5,13 @@
   #nav {
     padding: 15px 0;
   }
+  .brand_logo img {
+    width: 28px;
+    height: 20px;
+  }
+  .brand_logo h2 {
+    font-size: 22px;
+  }
   /* === navbar === */
   /* === banner === */
   #banner {
@@ -22,7 +29,7 @@
   /* === service === */
   .service_item_wrapper {
     padding-bottom: 45px;
-}
+  }
   .service_wrapper > h3 {
     padding-top: 50px;
     line-height: 1.3;
@@ -33,41 +40,50 @@
   }
   .service_item {
     width: 280px;
-    
   }
   .service_item_img {
     height: 190px;
-}
-  .service_item>p {
+  }
+  .service_item > p {
     line-height: 1.5;
-}
+  }
   /* === service === */
   /* === portfolio === */
-  .portfolio_wrapper>h2::before{
+  .portfolio_wrapper > h2::before {
     display: none;
   }
-  .portfolio_wrapper>h2::after{
+  .portfolio_wrapper > h2::after {
     display: none;
   }
-  .portfolio_item{
+  .portfolio_item {
     width: 100%;
   }
   /* === portfolio === */
   /* === journal === */
-  .journal_item_wrapper{
+  .journal_section_wrapper {
+    padding: 50px 0;
+}
+  .journal_item_wrapper {
     align-items: center;
   }
-  .journal_section_heading::after{
+  .journal_section_heading::after {
     display: none;
   }
-  .journal_section_heading::before{
+  .journal_section_heading::before {
     display: none;
   }
-  .journal_item{
+  .journal_item {
     width: 300px;
   }
-  
   /* === journal === */
+  /* === about === */
+  .about_service_details>h4 {
+    padding-bottom: 10px;
+}
+.about_service_details {
+  padding: 0 0 15px 15px;
+}
+  /* === about === */
 }
 /* ========================= device (xs 0 > 576) ========================= */
 
@@ -92,11 +108,10 @@
   }
   /* === banner === */
   /* === portfolio === */
-  .portfolio_item{
+  .portfolio_item {
     width: 50%;
   }
   /* === portfolio === */
-  
 }
 /* ========================= device (sm 576 > 768) ========================= */
 
@@ -108,13 +123,13 @@
   }
   /* === navbar === */
   /* === service === */
-  
+
   .service_item {
     width: 280px;
   }
   .service_item_img {
     height: 190px;
-}
+  }
   .service_item_wrapper {
     gap: 20px;
   }
@@ -130,13 +145,13 @@
   }
   /* === navbar === */
   /* === service === */
-  
+
   .service_item {
     width: 280px;
   }
   .service_item_img {
     height: 190px;
-}
+  }
   .service_item_wrapper {
     justify-content: center;
     gap: 20px;

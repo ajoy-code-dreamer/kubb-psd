@@ -387,9 +387,6 @@ body{
     right: -115px;
     transform: translateY(-50%);
 }
-.about_wrapper{
-    width: 570px;
-}
 .about_details_wrapper{
     display: flex;
     justify-content: space-between;
@@ -422,10 +419,6 @@ body{
     color: #666;
     line-height: 1.5;
 }
-.about_services_wrapper{
-    width: 570px;
-}
-
 .about_service_item{
     display: flex;
 }
