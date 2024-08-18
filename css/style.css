@@ -444,11 +444,6 @@ body{
     background-color: #373737;
     padding: 68px 0 0 0;
 }
-.footer_wrapper{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 45px;
-}
 .footer_item{
     padding-bottom: 33px;
 }
